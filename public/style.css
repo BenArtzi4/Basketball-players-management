@@ -1,0 +1,24 @@
+/* Add space between table and form */
+.table-container {
+  margin-bottom: 50px;
+}
+
+.separator-line {
+  height: 3px; /* Adjust the height of the line as needed */
+  border-bottom: 3px dotted rgba(139, 139, 139, 0.5); /* Set the dotted line with transparency */
+  margin: 0 auto;
+  width: 50%; /* Set the width to half of the container */
+}
+
+.modal-content {
+  border-radius: 10px;
+}
+.modal-header {
+  border-bottom: none;
+}
+.modal-footer {
+  border-top: none;
+}
+.modal-body {
+  text-align: center;
+}
