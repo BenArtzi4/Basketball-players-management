@@ -3,6 +3,136 @@
   margin-bottom: 50px;
 }
 
+/* Add styles for the table */
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  text-align: center;
+}
+
+/* Add alternating row colors */
+.table tbody tr:nth-child(even) {
+  background-color: #f2f2f2; /* Light gray background color for even rows */
+}
+
+/* Add hover effect */
+.table tbody tr:hover {
+  background-color: #f5f5f5; /* Lighter gray background color on hover */
+  cursor: pointer;
+}
+
+/* Add a special class for highlighting specific rows (add this class dynamically using JavaScript) */
+.table tbody tr.highlighted {
+  background-color: #ffcc80; /* Custom color for highlighted rows */
+}
+
+/* Center-align text in the table cells */
+.table th,
+.table td {
+  text-align: center;
+}
+
+/* Add styles for the table header */
+.table thead th {
+  background-color: #0080ff; /* Cool light blue background color for header cells */
+  color: #ffffff; /* White text color */
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* style.css */
+
+/* Add styles for the form */
+/* style.css */
+
+/* Add styles for the form */
+#userForm {
+  max-width: 400px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* ... (existing styles) ... */
+
+/* Add styles for form labels */
+.form-group label {
+  font-size: 18px;
+  font-weight: bold;
+  color: #0080ff; /* Cool light blue text color for labels */
+}
+
+/* Add styles for input fields */
+.form-control {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Add styles for the submit button */
+#userForm button[type="submit"] {
+  background-color: #0080ff; /* Cool light blue background color for the submit button */
+  color: #ffffff; /* White text color for the submit button */
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#userForm button[type="submit"]:hover {
+  background-color: #005b9f; /* Darker blue background color on hover */
+}
+
+/* Style the phone number error modal */
+#phoneErrorModal .modal-content {
+  border-radius: 10px;
+  background-color: #f5f5f5; /* Light gray background color for the modal */
+  color: #333; /* Dark text color for the modal */
+}
+
+#phoneErrorModal .modal-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #0080ff; /* Cool light blue text color for the modal title */
+}
+
+#phoneErrorModal .modal-body {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555; /* Slightly darker text color for the modal body */
+}
+
+#phoneErrorModal .btn-secondary {
+  background-color: #ccc; /* Light gray background color for the close button */
+  color: #333; /* Dark text color for the close button */
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#phoneErrorModal .btn-secondary:hover {
+  background-color: #999; /* Darker gray background color on hover */
+}
+
+/* Add any other styles you want for the form */
+/* ... */
+
 .separator-line {
   height: 3px; /* Adjust the height of the line as needed */
   border-bottom: 3px dotted rgba(139, 139, 139, 0.5); /* Set the dotted line with transparency */
@@ -21,4 +151,33 @@
 }
 .modal-body {
   text-align: center;
+}
+
+#navbar-container {
+  margin-bottom: 10px; /* Adjust the margin-bottom to control the space between the navbar and the special header */
+}
+
+/* Add styles for the special header */
+#special-header {
+  background-color: #ffffff; /* White background color */
+  padding: 20px;
+  text-align: center;
+  color: #0080ff; /* Cool light blue text color */
+  position: relative;
+  animation: moveHeader 3s ease infinite;
+  margin-bottom: 10px; /* Adjust the margin-bottom to reduce space from the table */
+  font-family: "Bangers", cursive; /* Use the "Bangers" font from Google Fonts */
+  font-size: 60px; /* Increase font size for bigger letters */
+  letter-spacing: 8px; /* Increase letter spacing for bigger space between letters */
+}
+
+/* Define the animation keyframes */
+@keyframes moveHeader {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
 }

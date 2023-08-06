@@ -13,12 +13,21 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.min.css"
     />
+    <!-- Add the "Bangers" font from Google Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
+    />
 
     <title>Document</title>
   </head>
   <body>
     <!-- Include the navbar.html file -->
     <div id="navbar-container"></div>
+    <!-- Cool Header -->
+    <div id="special-header">
+      <h1 class="header-text">Let's Play Basketball!</h1>
+    </div>
 
     <div class="container mt-5">
       <div class="table-container">
@@ -40,7 +49,8 @@
       <div class="separator-line"></div>
 
       <!-- Form -->
-      <form id="userForm" class="mt-4">
+      <form id="userForm" class="mt-4 d-flex flex-column align-items-center">
+        <!-- Add the classes here -->
         <div class="form-group">
           <label for="firstName">First Name</label>
           <input
@@ -105,8 +115,9 @@
           <div class="modal-body">
             Please enter a valid phone number in one of the following
             formats:<br />
-            1. ddd-ddd-dddd<br />
-            2. dddddddddd
+            050-000-0000<br />
+            OR<br />
+            0500000000
           </div>
           <div class="modal-footer">
             <button
