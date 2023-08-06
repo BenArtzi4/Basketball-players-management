@@ -17,7 +17,6 @@ const playersSchema = {
   phoneNumber: String,
 };
 
-// Specify the collection name as "Players"
 const Player = mongoose.model("Player", playersSchema, "Players");
 
 // Serve static files from the "public" folder
