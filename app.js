@@ -29,6 +29,9 @@ app.use(
 
 app.use(express.json());
 
+// Serve static files from the "images" directory
+app.use(express.static("images"));
+
 // Function to check if the phone number is valid
 function isValidPhoneNumber(phoneNumber) {
   const pattern1 = /^\d{3}-\d{3}-\d{4}$/;

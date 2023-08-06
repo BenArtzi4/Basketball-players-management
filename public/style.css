@@ -181,3 +181,25 @@
     transform: translateY(10px);
   }
 }
+/* Custom styles for the footer */
+footer {
+  padding: 10px; /* Smaller padding around the text */
+  font-size: 16px; /* Smaller font size for the text */
+  text-align: center; /* Center-align the text */
+  font-family: "Roboto", cursive; /* Use your special font here */
+  position: relative; /* Set the footer as a positioned element */
+  z-index: 1; /* Ensure the footer stays above other content */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Add a subtle shadow to the text */
+  transition: font-family 0.3s, font-size 0.3s, color 0.3s; /* Add transitions for font changes */
+}
+
+/* Apply styles on hover */
+footer:hover {
+  font-size: 18px; /* Increase font size on hover */
+  color: #0080ff; /* Cool light blue text color */
+}
+/* Style the GitHub icon */
+.github-icon {
+  width: 40px; /* Adjust the width of the GitHub icon */
+  height: auto; /* Allow the height to adjust automatically to preserve the aspect ratio */
+}
