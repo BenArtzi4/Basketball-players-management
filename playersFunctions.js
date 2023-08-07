@@ -58,7 +58,7 @@ async function deletePlayers(password) {
       console.error("Error deleting players:", error);
     }
   } else {
-    alert("Incorrect password. Players were not deleted.");
+    alert("Incorrect password, Players were not deleted.");
   }
 }
 
