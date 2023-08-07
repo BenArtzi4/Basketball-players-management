@@ -3,7 +3,6 @@
   margin-bottom: 50px;
 }
 
-/* Add styles for the table */
 .table {
   border-collapse: collapse;
   width: 100%;
@@ -17,12 +16,12 @@
   text-align: center;
 }
 
-/* Add alternating row colors */
+/* alternating row colors */
 .table tbody tr:nth-child(even) {
   background-color: #f2f2f2; /* Light gray background color for even rows */
 }
 
-/* Add hover effect */
+/* hover effect */
 .table tbody tr:hover {
   background-color: #f5f5f5; /* Lighter gray background color on hover */
   cursor: pointer;
@@ -42,15 +41,10 @@
 /* Add styles for the table header */
 .table thead th {
   background-color: #0080ff; /* Cool light blue background color for header cells */
-  color: #ffffff; /* White text color */
+  color: #ffffff;
   font-weight: bold;
   font-size: 18px;
 }
-
-/* style.css */
-
-/* Add styles for the form */
-/* style.css */
 
 /* Add styles for the form */
 #userForm {
@@ -62,8 +56,6 @@
   background-color: #f5f5f5;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
-/* ... (existing styles) ... */
 
 /* Add styles for form labels */
 .form-group label {
@@ -130,9 +122,6 @@
   background-color: #999; /* Darker gray background color on hover */
 }
 
-/* Add any other styles you want for the form */
-/* ... */
-
 .separator-line {
   height: 3px; /* Adjust the height of the line as needed */
   border-bottom: 3px dotted rgba(139, 139, 139, 0.5); /* Set the dotted line with transparency */
@@ -159,10 +148,10 @@
 
 /* Add styles for the special header */
 #special-header {
-  background-color: #ffffff; /* White background color */
+  background-color: #ffffff;
   padding: 20px;
   text-align: center;
-  color: #0080ff; /* Cool light blue text color */
+  color: #0080ff;
   position: relative;
   animation: moveHeader 3s ease infinite;
   margin-bottom: 10px; /* Adjust the margin-bottom to reduce space from the table */
@@ -183,10 +172,10 @@
 }
 /* Custom styles for the footer */
 footer {
-  padding: 10px; /* Smaller padding around the text */
-  font-size: 16px; /* Smaller font size for the text */
-  text-align: center; /* Center-align the text */
-  font-family: "Roboto", cursive; /* Use your special font here */
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+  font-family: "Roboto", cursive;
   position: relative; /* Set the footer as a positioned element */
   z-index: 1; /* Ensure the footer stays above other content */
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Add a subtle shadow to the text */
@@ -195,8 +184,8 @@ footer {
 
 /* Apply styles on hover */
 footer:hover {
-  font-size: 18px; /* Increase font size on hover */
-  color: #0080ff; /* Cool light blue text color */
+  font-size: 18px;
+  color: #0080ff;
 }
 /* Style the GitHub icon */
 .github-icon {

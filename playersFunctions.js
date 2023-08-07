@@ -1,5 +1,3 @@
-// playersFunctions.js
-
 // Function to fetch all players from the server and update the table
 async function fetchPlayers() {
   try {
